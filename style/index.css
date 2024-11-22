@@ -80,7 +80,8 @@
     font-size: xx-large;
 }
 
-#main-container-quote-author {
+#main-container-quote-author,
+#main-container-excerpt-author {
     margin-left: 35px;
     margin-top: 30px;
     font-family: Arial, Helvetica, sans-serif;
@@ -97,4 +98,16 @@
 
 .main-container-curiosities-list-item {
     margin-bottom: 10px;
+}
+
+.main-container-excerpt {
+    margin: 30px 50px;
+    height: 300px;
+    background-color: #c4c0c0;
+}
+
+#main-container-excerpt-description {
+    padding: 50px 0px 0px 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
 }
