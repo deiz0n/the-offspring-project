@@ -1,135 +1,55 @@
-* {
-    box-sizing: border-box;
-    margin: 0px;
-}
-
-.bg-container {
-    background-color: #c4c0c0;
-    width: 100%;
-    height: 2930px;
-    box-sizing: border-box;
+html {
+    font-family: Helvetica;
+    background-color: #ddd;
 }
 
 .main-container {
-    margin: 60px 75px;
-    width: 90%;
-    height: 2800px;
+    max-width: 1100px;
     background-color: #fff;
-    position: absolute;
+    position: relative;
+    margin: 50px auto;
+    padding: 70px 50px;
 }
 
-#main-container-title {
-    margin-top: 35px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.header {
+    text-align: center;
+}
+
+.container-title {
+    font-size: 40px;
+}
+
+.container-description {
+    font-style: italic;
+}
+
+.container-img {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container-about,
+.container-curiosities {
+    padding-block: 25px;
+    margin-block: 25px;
+    border-top: 1px #ddd dashed;
+    border-bottom: 1px #ddd dashed;
+}
+
+.container-quotes {
+    background-color: #ddd;
+    padding: 30px;
+}
+
+.container-quotes p {
+    font-style: italic;
+}
+
+.container-quotes blockquote{
     font-weight: bold;
-    text-align: center;
+    font-size: 30px;
 }
 
-#main-container-description {
-    margin-top: 20px;
-    text-align: center;
-    font-style: italic;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 200;
-    color: #777676;
-}
-
-#main-container-image-band {
-    width: 900px;
-    height: 600px;
-    background-image: url(https://media.gazetadopovo.com.br/2012/08/ecf1cced36a769109a63a3e6dff062d4-gpLarge.jpg);
-    background-size: cover;
-    margin: 30px auto 5px auto;
-}
-
-#main-container-image-band-description,
-#main-container-image-show-description {
-    font-family: Helvetica;
-    text-align: center;
-}
-
-.main-container-about,
-.main-container-curiosities {
-    margin-top: 30px;
-    margin-inline: 50px;
-    border-block: #c4c0c0 2px dashed;
-}
-
-#main-container-about-title,
-#main-container-curiosities-title {
-    margin-top: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#main-container-about-description {
-    margin-top: 20px;
-    margin-bottom: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.main-container-quote {
-    margin: 30px 50px;
-    height: 200px;
-    background-color: #c4c0c0;
-}
-
-#main-container-quote-description {
-    margin-inline: 10%;
-    padding-top: 40px;
-    text-align: start;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: xx-large;
-}
-
-#main-container-quote-author,
-#main-container-excerpt-author {
-    margin-left: 35px;
-    margin-top: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    font-size: large;
-    color: #000;
-}
-
-#main-container-curiosities-list {
-    margin-top: 25px;
-    margin-bottom: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.main-container-curiosities-list-item {
-    margin-bottom: 10px;
-}
-
-.main-container-excerpt {
-    margin: 30px 50px;
-    height: 300px;
-    background-color: #c4c0c0;
-}
-
-#main-container-excerpt-description {
-    padding: 50px 0px 0px 60px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: x-large;
-}
-
-.main-container-image-show {
-    background-image: url(https://uploads.tracklist.com.br/wp-content/uploads/2023/09/offspring.png);
-    background-size: cover;
-    height: 600px;
-    width: 1000px;
-    margin: 0 auto 3px auto;
-}
-
-.main-container-more-info {
-    margin: 30px 50px;
-}
-
-#main-container-more-info-title,
-#main-container-more-info-link {
-    font-family: Arial, Helvetica, sans-serifs;
-}
-
-#main-container-more-info-link {
-    margin-top: 20px;
+.container-curiosities li {
+    height: 30px;
 }
